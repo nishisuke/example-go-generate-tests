@@ -12,7 +12,7 @@
 		},
 		"internal/controllers/mock_controllers/mock_user_controller.go": {
 			"checksum": "U5yh+Rqm/1ZZwOeHf8rTSw==",
-			"source_checksum": "jwsSHmIKTsxhFioyD5fzsA==",
+			"source_checksum": "yH1IApVmKM43QiUwnnwlPA==",
 			"mode": "SOURCE_MODE",
 			"source_mode_runner": {
 				"source": "internal/controllers/user_controller.go",
@@ -68,7 +68,7 @@
 		},
 		"internal/usecases/mock_usecases/mock_user_usecase.go": {
 			"checksum": "vYVk98Ebath3CrauQXLm2w==",
-			"source_checksum": "3ELKlS14fa5PBRu8iOwrNQ==",
+			"source_checksum": "baU8A3BiOLuUntEYO49hWg==",
 			"mode": "SOURCE_MODE",
 			"source_mode_runner": {
 				"source": "internal/usecases/user_usecase.go",

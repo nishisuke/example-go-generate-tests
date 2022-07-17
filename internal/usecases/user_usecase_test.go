@@ -4,14 +4,12 @@ import (
 	"errors"
 	"reflect"
 	"sample/internal/models"
-	"sample/internal/usecases/mock_usecases"
 	"testing"
 
 	"github.com/golang/mock/gomock"
 )
 
 func TestUserUsecase_GetMe(t *testing.T) {
-	validUser := models.User{Name: "Valid"}
 	type fields struct {
 		userRepo UserRepo
 	}
@@ -25,17 +23,7 @@ func TestUserUsecase_GetMe(t *testing.T) {
 		want       models.User
 		wantErr    error
 	}{
-		{
-			"case1",
-			func(ctrl *gomock.Controller) UserUsecase {
-				m := mock_usecases.NewMockUserRepo(ctrl)
-				m.EXPECT().Find(validUser.ID).Return(validUser)
-				return NewMockUserUsecase(m)
-			},
-			args{validUser.ID},
-			validUser,
-			nil,
-		},
+		// TODO: Add test cases.
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
