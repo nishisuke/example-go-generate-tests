@@ -1,7 +1,7 @@
 package controllers
 
 //go:generate gotests -w -all $GOFILE
-//go:generate gomockhandler -config=$SAMPLE_GO_TEST_ROOT/gomockhandler.json -source=$GOFILE -destination=mock_$GOPACKAGE/mock_$GOFILE -package=mock_$GOPACKAGE
+//go:generate gomockhandler -config=$EXAMPLE_TESTS_ROOT/gomockhandler.json -source=$GOFILE -destination=mock_$GOPACKAGE/mock_$GOFILE -package=mock_$GOPACKAGE
 
 import (
 	"fmt"
