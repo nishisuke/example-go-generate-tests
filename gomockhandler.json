@@ -1,0 +1,116 @@
+{
+	"mocks": {
+		"internal/controllers/mock/mock_user_controller.go": {
+			"checksum": "QSqaF9ETHsAir+Gm/7CMUA==",
+			"source_checksum": "URhPxzvBZ6TkH5rvTlu2Pw==",
+			"mode": "SOURCE_MODE",
+			"source_mode_runner": {
+				"source": "internal/controllers/user_controller.go",
+				"destination": "internal/controllers/mock/mock_user_controller.go",
+				"package": "controllers"
+			}
+		},
+		"internal/controllers/mock_controllers/mock_user_controller.go": {
+			"checksum": "U5yh+Rqm/1ZZwOeHf8rTSw==",
+			"source_checksum": "jwsSHmIKTsxhFioyD5fzsA==",
+			"mode": "SOURCE_MODE",
+			"source_mode_runner": {
+				"source": "internal/controllers/user_controller.go",
+				"destination": "internal/controllers/mock_controllers/mock_user_controller.go",
+				"package": "mock_controllers"
+			}
+		},
+		"internal/controllers/mock_user_controller.go": {
+			"checksum": "QSqaF9ETHsAir+Gm/7CMUA==",
+			"source_checksum": "bsSh27K38Os4mQD6WSW4pw==",
+			"mode": "SOURCE_MODE",
+			"source_mode_runner": {
+				"source": "internal/controllers/user_controller.go",
+				"destination": "internal/controllers/mock_user_controller.go",
+				"package": "controllers"
+			}
+		},
+		"internal/mock/mock_controllers": {
+			"checksum": "c5uxj5eLUiGqcNwj5zdj7w==",
+			"source_checksum": "5IEjRVwflqEFC+x5eNwayA==",
+			"mode": "SOURCE_MODE",
+			"source_mode_runner": {
+				"source": "internal/controllers/user_controller.go",
+				"destination": "internal/mock/mock_controllers"
+			}
+		},
+		"internal/mock/mock_controllers.go": {
+			"checksum": "c5uxj5eLUiGqcNwj5zdj7w==",
+			"source_checksum": "5IEjRVwflqEFC+x5eNwayA==",
+			"mode": "SOURCE_MODE",
+			"source_mode_runner": {
+				"source": "internal/controllers/user_controller.go",
+				"destination": "internal/mock/mock_controllers.go"
+			}
+		},
+		"internal/mock/usecases/user_usecase_mock.go": {
+			"checksum": "vYVk98Ebath3CrauQXLm2w==",
+			"source_checksum": "6jGd2LmR/J919FHEOhVI5g==",
+			"mode": "SOURCE_MODE",
+			"source_mode_runner": {
+				"source": "internal/usecases/user_usecase.go",
+				"destination": "internal/mock/usecases/user_usecase_mock.go"
+			}
+		},
+		"internal/mock_controllers/mock_controllers.go": {
+			"checksum": "c5uxj5eLUiGqcNwj5zdj7w==",
+			"source_checksum": "5IEjRVwflqEFC+x5eNwayA==",
+			"mode": "SOURCE_MODE",
+			"source_mode_runner": {
+				"source": "internal/controllers/user_controller.go",
+				"destination": "internal/mock_controllers/mock_controllers.go"
+			}
+		},
+		"internal/usecases/mock_usecases/mock_user_usecase.go": {
+			"checksum": "vYVk98Ebath3CrauQXLm2w==",
+			"source_checksum": "3ELKlS14fa5PBRu8iOwrNQ==",
+			"mode": "SOURCE_MODE",
+			"source_mode_runner": {
+				"source": "internal/usecases/user_usecase.go",
+				"destination": "internal/usecases/mock_usecases/mock_user_usecase.go",
+				"package": "mock_usecases"
+			}
+		},
+		"mock": {
+			"checksum": "c5uxj5eLUiGqcNwj5zdj7w==",
+			"source_checksum": "5IEjRVwflqEFC+x5eNwayA==",
+			"mode": "SOURCE_MODE",
+			"source_mode_runner": {
+				"source": "internal/controllers/user_controller.go",
+				"destination": "mock"
+			}
+		},
+		"mock/controllers": {
+			"checksum": "c5uxj5eLUiGqcNwj5zdj7w==",
+			"source_checksum": "5IEjRVwflqEFC+x5eNwayA==",
+			"mode": "SOURCE_MODE",
+			"source_mode_runner": {
+				"source": "internal/controllers/user_controller.go",
+				"destination": "mock/controllers"
+			}
+		},
+		"mock/mock_controllers": {
+			"checksum": "c5uxj5eLUiGqcNwj5zdj7w==",
+			"source_checksum": "5IEjRVwflqEFC+x5eNwayA==",
+			"mode": "SOURCE_MODE",
+			"source_mode_runner": {
+				"source": "internal/controllers/user_controller.go",
+				"destination": "mock/mock_controllers"
+			}
+		},
+		"mock_controllers": {
+			"checksum": "vYVk98Ebath3CrauQXLm2w==",
+			"source_checksum": "6jGd2LmR/J919FHEOhVI5g==",
+			"mode": "SOURCE_MODE",
+			"source_mode_runner": {
+				"source": "internal/usecases/user_usecase.go",
+				"destination": "mock_controllers"
+			}
+		}
+	}
+}
